@@ -6,6 +6,9 @@ Funny formulae for the Homebrew package manager.
 
 Or `brew tap extsoft/insight` and then `brew install <formula>`.
 
+## Formulae
+- [pem](https://github.com/extsoft/pem) 
+
 ## Troubleshooting
 **IMPORTANT** First read the [Troubleshooting Checklist](http://docs.brew.sh/Troubleshooting.html).
 
