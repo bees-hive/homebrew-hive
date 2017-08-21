@@ -8,6 +8,7 @@ Or `brew tap extsoft/insight` and then `brew install <formula>`.
 
 ## Formulae
 - [pem](https://github.com/extsoft/pem) 
+- [elegant-git](https://github.com/extsoft/elegant-git) 
 
 ## Troubleshooting
 **IMPORTANT** First read the [Troubleshooting Checklist](http://docs.brew.sh/Troubleshooting.html).
