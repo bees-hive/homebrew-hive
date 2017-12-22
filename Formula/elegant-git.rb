@@ -1,11 +1,11 @@
 class ElegantGit < Formula
-  desc 'Allows easy handle git tasks.'
-  homepage 'https://github.com/extsoft/elegant-git'
-  url 'https://github.com/extsoft/elegant-git.git', :tag => '0.1.0', :revision => 'fe976a69bd566af9844bc77f7cff76f105da6b9e'
-  head 'https://github.com/extsoft/elegant-git.git'
+  desc "Allows easy handle git tasks"
+  homepage "https://github.com/extsoft/elegant-git"
+  url "https://github.com/extsoft/elegant-git.git", :tag => "0.2.0", :revision => "d6af6a3faaa6d3d4a5e33344c521813f345f3cc1"
+  version_scheme 1
+  head "https://github.com/extsoft/elegant-git.git"
 
   bottle :unneeded
-  depends_on "git"
 
   def install
     libexec.install Dir["*"]
@@ -14,6 +14,6 @@ class ElegantGit < Formula
   end
 
   test do
-    system "git", "elegant commands"
+    system "which", "git-elegant"
   end
 end
