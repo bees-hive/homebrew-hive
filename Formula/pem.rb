@@ -1,7 +1,7 @@
 class Pem < Formula
   desc "This tool allows you to easily manage Python's environment."
   homepage "https://github.com/extsoft/pem"
-  url "https://github.com/extsoft/pem.git", :tag => "0.2.0", :revision => "70a189cd3ac4d7e30dd236def58ad6f92db77609"
+  url "https://github.com/extsoft/pem.git", :tag => "1.0.0", :revision => "044bffa1d8f3199401ff36781374106cea8144b7"
   head "https://github.com/extsoft/pem.git"
 
   bottle :unneeded
@@ -14,6 +14,6 @@ class Pem < Formula
   end
 
   test do
-    system "#{bin}/pem", "folder-state"
+    system "#{bin}/pem", "display-dir-venv"
   end
 end
