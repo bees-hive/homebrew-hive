@@ -1,7 +1,7 @@
 class ElegantGit < Formula
   desc "Allows easy handle git tasks"
   homepage "https://github.com/extsoft/elegant-git"
-  url "https://github.com/extsoft/elegant-git.git", :tag => "0.2.0", :revision => "d6af6a3faaa6d3d4a5e33344c521813f345f3cc1"
+  url "https://github.com/extsoft/elegant-git.git", :tag => "0.3.0", :revision => "00fda48b56d100f72aa07f59deb84053fdb217e3"
   version_scheme 1
   head "https://github.com/extsoft/elegant-git.git"
 
