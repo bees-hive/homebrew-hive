@@ -1,5 +1,5 @@
-# homebrew-insight
-Funny formulae for the Homebrew package manager.
+# homebrew-hive
+A Homebrew tap for the formulae of the Bees' Hive organization.
 
 ## How do I install these formulae?
 `brew install bees-hive/hive/<formula>`
