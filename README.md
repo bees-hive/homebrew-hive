@@ -7,7 +7,7 @@ A Homebrew tap for the formulae of the Bees' Hive organization.
 Or `brew tap bees-hive/hive` and then `brew install <formula>`.
 
 ## Formulae
-- [pem](https://github.com/extsoft/pem) 
+- [pem](https://github.com/bees-hive/pem) 
 - [elegant-git](https://github.com/extsoft/elegant-git) 
 
 ## Troubleshooting
