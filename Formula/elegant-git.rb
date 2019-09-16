@@ -13,6 +13,17 @@ class ElegantGit < Formula
     bash_completion.install "completions/git-elegant.bash" => "git-elegant"
   end
 
+  def caveats; <<~EOF
+The final step after Elegant Git installation is to run
+    git elegant acquire-repository
+for each git repository where Elegant Git is going to be used.
+
+If this step is not completed, Elegant Git may behave unexpectedly
+since the desired Git configuration (relevant for the current version)
+is not applied.
+  EOF
+  end
+
   test do
     assert_match "init-repository", shell_output("#{bin}/git-elegant commands")
   end
