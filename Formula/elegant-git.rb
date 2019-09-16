@@ -6,6 +6,7 @@ class ElegantGit < Formula
   head "https://github.com/bees-hive/elegant-git.git"
 
   bottle :unneeded
+  depends_on "bash-completion"
 
   def install
     system "./install.bash", prefix, "src"
