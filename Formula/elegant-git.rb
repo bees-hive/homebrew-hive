@@ -1,7 +1,7 @@
 class ElegantGit < Formula
   desc "Elegant Git is a tool who carefully makes routine work with Git"
   homepage "https://elegant-git.bees-hive.org"
-  url "https://github.com/bees-hive/elegant-git.git", :tag => "0.11.0", :revision => "b25d8a62b3c00ffe9900bbd49824be31fa452044"
+  url "https://github.com/bees-hive/elegant-git.git", :tag => "0.12.0", :revision => "038346e5e1621fade748f89bb3e44299829517e3"
   version_scheme 3
   head "https://github.com/bees-hive/elegant-git.git"
 
