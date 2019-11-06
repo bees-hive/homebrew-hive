@@ -1,7 +1,7 @@
 class ElegantGit < Formula
   desc "Elegant Git is a tool who carefully makes routine work with Git"
   homepage "https://elegant-git.bees-hive.org"
-  url "https://github.com/bees-hive/elegant-git.git", :tag => "0.13.0", :revision => "8f5852104c95c8c49be3465ade247cf24987f53a"
+  url "https://github.com/bees-hive/elegant-git.git", :tag => "0.14.0", :revision => "1545b2c060ef07ce784411b497883c1dbcd96044"
   version_scheme 3
   head "https://github.com/bees-hive/elegant-git.git"
 
@@ -14,9 +14,9 @@ class ElegantGit < Formula
   end
 
   def caveats; <<~EOF
-    The final step after Elegant Git installation is to run
-        git elegant acquire-repository
-    for each git repository where Elegant Git is going to be used.
+    Please configure Elegant Git by running
+
+        git-elegant acquire-git
 
     If this step is not completed, Elegant Git may behave unexpectedly
     since the desired Git configuration (relevant for the current version)
