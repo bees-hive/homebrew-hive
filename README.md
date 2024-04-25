@@ -1,12 +1,15 @@
 # homebrew-hive
 A Homebrew tap for the formulae of the Bees Hive organization.
 
-## How do I install these formulae?
-`brew install bees-hive/hive/<formula>`
+## Usage
 
-Or `brew tap bees-hive/hive` and then `brew install <formula>`.
+```shell
+brew tap bees-hive/hive
+brew update
+brew install bees-hive/hive/<formula>
+```
 
-## Formulae
+## Available Tools
 - `brew install bees-hive/hive/aws-creds` for https://github.com/bees-hive/aws-creds
 - `brew install bees-hive/hive/elegant-git` for (https://github.com/extsoft/elegant-git
 - `brew install bees-hive/hive/pem` for https://github.com/bees-hive/pem
