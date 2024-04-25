@@ -2,7 +2,7 @@ class ElegantGit < Formula
   desc "Assistant who carefully automates routine work with Git"
   homepage "https://elegant-git.bees-hive.org"
   url "https://github.com/bees-hive/elegant-git.git", tag: "0.20.0", revision: "e47c8471d9f504f3158760ffe797933c779dcecc"
-  head "main"
+  head "https://github.com/bees-hive/elegant-git.git", branch: "main"
 
   depends_on "bash-completion"
 
