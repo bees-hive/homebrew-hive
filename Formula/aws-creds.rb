@@ -1,7 +1,7 @@
 class AwsCreds < Formula
   desc "Painless CLI authentication using various AWS identities"
   homepage "https://github.com/bees-hive/aws-creds"
-  url "https://github.com/bees-hive/aws-creds.git", tag: "0.5.0", revision: "86be05da3321dfeaf1d292df69b4ffc90fb53816"
+  url "https://github.com/bees-hive/aws-creds.git", tag: "0.6.0", revision: "6360d6823ec25ce53722554d5f3f3e4869c6f45f"
   head "https://github.com/bees-hive/aws-creds.git", branch: "main"
 
   def install
