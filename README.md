@@ -11,7 +11,6 @@ brew install bees-hive/hive/<formula>
 
 ## Available Tools
 - `brew install bees-hive/hive/aws-creds` for https://github.com/bees-hive/aws-creds
-- `brew install bees-hive/hive/pem` for https://github.com/bees-hive/pem
 
 Elegant Git is no longer in this tap. Use `brew install extsoft/tools/elegant-git`
 (https://github.com/extsoft/elegant-git). `brew update` migrates an existing
@@ -23,13 +22,16 @@ brew uninstall elegant-git
 brew install extsoft/tools/elegant-git
 ```
 
+PEM is deprecated. Do not install `bees-hive/hive/pem`. Remove an existing install with
+`brew uninstall pem`.
+
 
 ## Contributing
 
 The update flow is
 
 ```shell
-formula=pem
+formula=aws-creds
 brew edit ${formula}
 brew audit --strict --formula ${formula}
 brew reinstall ${formula}
