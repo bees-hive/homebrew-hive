@@ -11,8 +11,17 @@ brew install bees-hive/hive/<formula>
 
 ## Available Tools
 - `brew install bees-hive/hive/aws-creds` for https://github.com/bees-hive/aws-creds
-- `brew install bees-hive/hive/elegant-git` for (https://github.com/extsoft/elegant-git
 - `brew install bees-hive/hive/pem` for https://github.com/bees-hive/pem
+
+Elegant Git is no longer in this tap. Use `brew install extsoft/tools/elegant-git`
+(https://github.com/extsoft/elegant-git). `brew update` migrates an existing
+`extsoft/hive/elegant-git` install. If you tapped `bees-hive/hive`, that clone still has the old
+formula, so uninstall it and install from `extsoft/tools`:
+
+```shell
+brew uninstall elegant-git
+brew install extsoft/tools/elegant-git
+```
 
 
 ## Contributing
