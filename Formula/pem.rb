@@ -4,6 +4,8 @@ class Pem < Formula
   url "https://github.com/extsoft/pem.git", tag: "1.0.0", revisioni: "044bffa1d8f3199401ff36781374106cea8144b7"
   head "https://github.com/extsoft/pem.git", branch: "main"
 
+  deprecate! date: "2026-08-30", because: :unmaintained
+
   depends_on "pyenv-virtualenv"
 
   def install
